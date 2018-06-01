@@ -16,8 +16,8 @@ GIT="Specs.git"
 targetGit=$1
 mirrorGit=$2
 
-echo "${targetGit}"
-echo "${mirrorGit}"
+echo "targetGit:${targetGit}"
+echo "mirrorGit:${mirrorGit}"
 
 
 ##GITLab
@@ -30,8 +30,6 @@ echo "/mirror start-------------------------------------------------"
 
 echo "gitlab:${GITLAB_GIT}"
 echo "github:${GITHUB_GIT}"
-
-exit 0
 
 echo "begin_time:"`date`
 
