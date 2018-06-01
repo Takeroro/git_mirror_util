@@ -21,7 +21,7 @@ echo "${mirrorGit}"
 
 
 ##GITLab
-GITLAB_GIT="https://code.yy.com/${mirrorGit}"
+GITLAB_GIT="https://git.yy.com/${mirrorGit}"
  
 #GITHub
 GITHUB_GIT="https://github.com/${targetGit}"
@@ -30,6 +30,8 @@ echo "/mirror start-------------------------------------------------"
 
 echo "gitlab:${GITLAB_GIT}"
 echo "github:${GITHUB_GIT}"
+
+exit 0
 
 echo "begin_time:"`date`
 
