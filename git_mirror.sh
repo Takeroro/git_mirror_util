@@ -16,10 +16,6 @@ GIT="Specs.git"
 targetGit=$1
 mirrorGit=$2
 
-echo "targetGit:${targetGit}"
-echo "mirrorGit:${mirrorGit}"
-
-
 ##GITLab
 GITLAB_GIT="https://git.yy.com/${mirrorGit}"
  
@@ -27,6 +23,11 @@ GITLAB_GIT="https://git.yy.com/${mirrorGit}"
 GITHUB_GIT="https://github.com/${targetGit}"
  
 echo "/mirror start-------------------------------------------------"
+
+
+echo "targetGit:${targetGit}"
+echo "mirrorGit:${mirrorGit}"
+
 
 echo "gitlab:${GITLAB_GIT}"
 echo "github:${GITHUB_GIT}"
@@ -48,4 +49,3 @@ rm -rf ${GIT_DIR}
 
 echo "end_time:"`date`
 echo "\mirror end-------------------------------------------------"
-
